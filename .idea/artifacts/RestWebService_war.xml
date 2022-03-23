@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RestWebService:war">
+    <output-path>$PROJECT_DIR$/war</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RestWebService</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RestWebService.war">
+      <element id="artifact" artifact-name="RestWebService:war exploded" />
+    </root>
+  </artifact>
+</component>
